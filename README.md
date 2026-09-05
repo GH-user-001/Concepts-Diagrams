@@ -36,6 +36,16 @@ Use lowercase kebab-case folder names, such as `event-loop` or `zero-trust-netwo
 
 Optional exports (PNG, SVG, or PDF) can sit beside the source diagram. Always keep the `.drawio` file as the editable source of truth.
 
+## Publish with GitHub Pages
+
+1. Open this repository's **Settings → Pages**.
+2. Under **Build and deployment**, choose **Deploy from a branch**.
+3. Select the `main` branch and `/(root)` folder, then save.
+4. After GitHub finishes publishing, browse the site at:
+   `https://gh-user-001.github.io/Concepts-Diagrams/`
+
+The included `.nojekyll` file tells GitHub Pages to serve this as a plain static HTML site.
+
 ## Preview locally
 
 From the repository root, run:
@@ -44,19 +54,4 @@ From the repository root, run:
 python3 -m http.server 8000
 ```
 
-Then open <http://localhost:8000>. A local server gives the same relative-link behavior as GitHub Pages.
-
-## Publish with GitHub Pages
-
-In the GitHub repository, open **Settings → Pages**, select **Deploy from a branch**, choose **main** and **/(root)**, then save. The site will be available at:
-
-`https://gh-user-001.github.io/Concepts-Diagrams/`
-
-## Writing checklist
-
-- State the concept in one sentence.
-- Explain why it matters and where it is used.
-- Walk through the diagram in numbered steps.
-- Capture assumptions, trade-offs, and common mistakes.
-- Add sources and a “last reviewed” date.
-- Prefer links between related concept pages over duplicating explanations.
+Then open `http://localhost:8000`. A local server is preferable to opening files directly because it matches how the pages behave when hosted.
