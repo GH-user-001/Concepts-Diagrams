@@ -315,3 +315,43 @@ footer p {
     scroll-behavior: auto;
   }
 }
+
+
+.concept + .concept {
+  margin-top: 96px;
+  border-top: 2px solid var(--border);
+  padding-top: 72px;
+}
+
+.concept-frame {
+  display: block;
+  width: 100%;
+  min-height: 1200px;
+  border: 0;
+  background: #fbf6ec;
+}
+
+.source-links {
+  margin-top: 24px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .concept + .concept {
+    margin-top: 72px;
+    padding-top: 54px;
+  }
+
+  .concept-frame {
+    min-height: 1800px;
+  }
+
+  .source-links span {
+    display: none;
+  }
+
+  .source-links a {
+    display: block;
+    margin-top: 8px;
+  }
+}
