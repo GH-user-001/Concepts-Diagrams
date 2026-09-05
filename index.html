@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A visual knowledge base of concepts, explanations, and editable diagrams.">
+  <title>Concepts & Diagrams</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Visual knowledge base</p>
+      <h1>Concepts &amp; Diagrams</h1>
+      <p class="lede">Clear explanations paired with editable diagrams—built as I learn.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section aria-labelledby="catalog-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Catalog</p>
+          <h2 id="catalog-title">Explore concepts</h2>
+        </div>
+        <a class="button secondary" href="templates/concept.html">View page template</a>
+      </div>
+
+      <!-- Copy a card and update its link when you add a concept. -->
+      <div class="card-grid">
+        <article class="card">
+          <p class="tag">Web fundamentals</p>
+          <h3><a href="concepts/http-request-lifecycle/index.html">HTTP Request Lifecycle</a></h3>
+          <p>Follow a browser request through DNS, transport, the server, and back to rendered content.</p>
+          <a class="card-link" href="concepts/http-request-lifecycle/index.html">Study concept <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="card card-placeholder">
+          <p class="tag">Your next topic</p>
+          <h3>Add a concept</h3>
+          <p>Copy the two starter files, replace the prompts, and add a card here.</p>
+          <a class="card-link" href="README.md#add-a-concept">Read the workflow <span aria-hidden="true">→</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="principles" aria-labelledby="principles-title">
+      <p class="eyebrow">Learning method</p>
+      <h2 id="principles-title">Explain it. Draw it. Revisit it.</h2>
+      <div class="principle-grid">
+        <div><strong>01</strong><p>Write the one-sentence mental model.</p></div>
+        <div><strong>02</strong><p>Draw the actors, boundaries, and flow.</p></div>
+        <div><strong>03</strong><p>Record trade-offs and common mistakes.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">Source diagrams are editable <code>.drawio</code> files.</div>
+  </footer>
+</body>
+</html>
