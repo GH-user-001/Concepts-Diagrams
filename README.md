@@ -6,7 +6,7 @@ A personal, visual knowledge base for concepts I am learning. Each concept lives
 
 - Open [`index.html`](index.html) for the catalog.
 - See the starter example: [HTTP Request Lifecycle](concepts/http-request-lifecycle/index.html).
-- GitHub Pages can turn the repository into a browsable website (setup below). This page is at [Github Page of Concepts & Diagrams](url)
+- GitHub Pages can turn the repository into a browsable website (setup below). This page is at [Github Page of Concepts & Diagrams](https://gh-user-001.github.io/Concepts-Diagrams/)
 
 ```text
 .
